@@ -1,18 +1,21 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import './App.css';
-import Navbar from "./components/navbar";
+import MainPanel from './main-panel'
+import SettingPanel from './setting-panel/Component'
+import Language from './autolanguage'
+
+//React-Routter-Dom
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 function App() {
+
   return (
-    <Router>
-      <Navbar />
+    <BrowserRouter>
       <Routes>
-        <Route element='/' />
-        <Route element='/Products' />
-        <Route element='/Reports' />
+        <Route path='/' element={<Language />} />
+        <Route path='/registration' element={<SettingPanel />} />
+        <Route path='/main' element={<MainPanel />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
 

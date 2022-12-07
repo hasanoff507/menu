@@ -1,0 +1,96 @@
+#root {
+    height: 100vh;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    margin: 0 !important;
+}
+
+.categoryBtn {
+    background: #e7d6d6 !important;
+}
+
+.categoryBtn-active {
+    background: #1976d2 !important;
+    color: white !important;
+}
+
+.container {
+    max-width: 100%;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.Carusel {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
+}
+
+.carousel-image {
+    object-position: top;
+}
+
+.box-background {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 1;
+    background: linear-gradient(0deg, #1c0707 0%, #080808 0%, rgb(255 255 255 / 0%) 25.72%);
+    border: 0px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 0px 60px 150px rgb(83 70 69 / 69%) !important
+}
+
+.dots {
+    z-index: 999;
+}
+
+.dot {
+    height: 8px !important;
+    width: 8px !important;
+}
+
+.carousel-container {
+    min-height: 330px !important;
+}
+
+.carousel-caption-bottom {
+    width: unset !important;
+    bottom: 20px !important;
+    left: 10px !important;
+    /* z-index: 999; */
+}
+
+.searchbar {
+    position: absolute !important;
+    z-index: 9;
+    width: 100% !important;
+    margin: 0 auto;
+}
+
+.css-y40w8,
+.css-1ywo31j {
+    color: #fff;
+}
+
+.SearchBarComponent-root {
+    background: rgba(255, 255, 255, 0.2) !important;
+    border-radius: 10px !important;
+    box-shadow: 0px 0px 1px 1px rgba(83, 69, 69, 0.144) !important;
+    backdrop-filter: blur(1px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    width: 85% !important;
+    margin: 15px auto 0;
+}
+
+.css-yz9k0d-MuiInputBase-input {
+    color: #fff !important;
+}
+
+.MuiTabPanel-root {
+    overflow: hidden;
+}
